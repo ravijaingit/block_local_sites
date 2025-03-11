@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Local Site Blocker",
+    "version": "1.0",
+    "description": "Blocks specified websites locally without internet interaction.",
+    "permissions": ["storage", "declarativeNetRequest"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "options_page": "options.html"
+  }
